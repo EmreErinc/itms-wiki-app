@@ -26,18 +26,10 @@ services:
     volumes:
       - ./src/main/resources/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
 
-#  svc:
-#    restart: always
-#    container_name: bus_signalize_svc
-#    build: ./
-#    expose:
-#      - 7000
-#    ports:
-#      - 7000:7000
-##    environment:
-##      SPRING_MONGODB_URI: mongodb://bus-signalize-mongodb:27017/bus_signalize
-##      SPRING_POSTGRESQL_URL: jdbc:postgresql://bus-signalize-postgresql:5432/bus_signalize
-
-volumes:
-  mosquitto_data:
-  mosquitto_log:
+  svc:
+    restart: always
+    container_name: itms_svc
+    expose:
+      - 7000
+    ports:
+      - 7000:7000
