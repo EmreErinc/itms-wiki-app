@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZfCJ0CaiG0jkgclEwGIpnHhwxY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/metric/model" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.44367817" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mosquitto" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/metric/model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bussignalize.graduationproject.metric.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bussignalize.graduationproject.metric.service.impl" />
+      <recent name="com.bussignalize.graduationproject.userAuth.model.res" />
+      <recent name="com.bussignalize.graduationproject.userAuth.model.req" />
+      <recent name="com.bussignalize.graduationproject.line.model.value" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WikiAppProjectApplication">
+    <configuration name="WikiAppProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="graduation-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itms.wikiapp.WikiAppProjectApplication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="bus-signalize" />
+          <option name="entrypoint" value="java" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.postgre: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgre" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.docker-compose.yml.postgre: Compose Deployment" />
+      <item itemvalue="Spring Boot.WikiAppProjectApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.postgre: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="" />
+      <created>1585220685949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585220685949</updated>
+      <workItem from="1585220689715" duration="3530000" />
+      <workItem from="1585348720217" duration="4000" />
+      <workItem from="1585393190498" duration="74000" />
+      <workItem from="1586085163258" duration="601000" />
+      <workItem from="1586087209384" duration="546000" />
+      <workItem from="1586089277432" duration="1531000" />
+      <workItem from="1586094704803" duration="2742000" />
+      <workItem from="1586615669809" duration="569000" />
+      <workItem from="1586616262374" duration="40000" />
+      <workItem from="1586616322209" duration="873000" />
+      <workItem from="1586621098093" duration="2158000" />
+      <workItem from="1586623275422" duration="19549000" />
+      <workItem from="1586688418355" duration="5240000" />
+      <workItem from="1586713151722" duration="13357000" />
+      <workItem from="1587207755721" duration="854000" />
+      <workItem from="1587209294945" duration="26230000" />
+      <workItem from="1587293975493" duration="17508000" />
+      <workItem from="1587499518803" duration="41000" />
+      <workItem from="1587499581709" duration="644000" />
+      <workItem from="1587847600059" duration="597000" />
+      <workItem from="1587850304608" duration="7703000" />
+      <workItem from="1587897432497" duration="38667000" />
+      <workItem from="1588601533066" duration="401000" />
+      <workItem from="1588602332960" duration="482000" />
+      <workItem from="1588602838026" duration="1060000" />
+      <workItem from="1588603930900" duration="28494000" />
+      <workItem from="1588693617992" duration="44000" />
+      <workItem from="1588693681844" duration="28000" />
+      <workItem from="1588698614455" duration="2154000" />
+      <workItem from="1588711249873" duration="5708000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="742" y="376" width="480" height="362" key="#Docker" timestamp="1586727502487">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="742" y="376" width="480" height="362" key="#Docker/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586727502487" />
+    <state x="649" y="89" width="666" height="936" key="#Dockerfile" timestamp="1586727459510">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="649" y="89" width="666" height="936" key="#Dockerfile/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586727459510" />
+    <state x="616" y="1301" width="732" height="644" key="#Inspections" timestamp="1588713355474">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="616" y="1301" width="732" height="644" key="#Inspections/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588713355474" />
+    <state x="629" y="323" width="706" height="467" key="#Log_Highlighting_(ideolog)" timestamp="1588623084160">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="629" y="323" width="706" height="467" key="#Log_Highlighting_(ideolog)/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588623084160" />
+    <state x="582" y="197" width="800" height="719" key="#Plugins" timestamp="1586623231542">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="582" y="197" width="800" height="719" key="#Plugins/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586623231542" />
+    <state x="363" y="421" width="1237" height="272" key="#SQL_Resolution_Scopes" timestamp="1587909081159">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="363" y="421" width="1237" height="272" key="#SQL_Resolution_Scopes/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587909081159" />
+    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588712599977">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="164" y="1293" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1587217911129" />
+    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588712599977" />
+    <state x="507" y="396" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053@54.27.1866.1053" timestamp="1585222518363" />
+    <state x="206" y="355" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588603285994">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="206" y="355" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588603285994" />
+    <state x="795" y="240" width="374" height="1080" key="#com.intellij.ide.util.MemberChooser" timestamp="1588632065620">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="795" y="240" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588632065620" />
+    <state x="795" y="1080" width="374" height="1080" key="#com.intellij.ide.util.MemberChooser/54.27.1866.2133@54.27.1866.2133" timestamp="1587314118530" />
+    <state x="670" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586615970286">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="670" y="281" width="624" height="551" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586615970286" />
+    <state x="221" y="27" width="1522" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588634347887">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="221" y="27" width="1522" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588634347887" />
+    <state x="720" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588698992045">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="720" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588698992045" />
+    <state x="182" y="262" width="666" height="590" key="#docker-compose.yml.postgre:_Compose_Deployment" timestamp="1588603308844">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="182" y="262" width="666" height="590" key="#docker-compose.yml.postgre:_Compose_Deployment/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588603308844" />
+    <state x="498" y="1212" width="986" height="693" key="#xdebugger.evaluate" timestamp="1588635001642">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="498" y="1212" width="986" height="693" key="#xdebugger.evaluate/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588635001642" />
+    <state width="531" height="506" key="DebuggerActiveHint" timestamp="1587935518393">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="531" height="506" key="DebuggerActiveHint/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587935518393" />
+    <state x="770" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588693701557">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="770" y="311" width="424" height="491" key="FileChooserDialogImpl/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588693701557" />
+    <state width="1820" height="510" key="GridCell.Tab.0.bottom" timestamp="1588723596177">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.0.bottom/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596177" />
+    <state width="1820" height="495" key="GridCell.Tab.0.bottom/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067011" />
+    <state width="1820" height="275" key="GridCell.Tab.0.bottom/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541022" />
+    <state width="1820" height="593" key="GridCell.Tab.0.bottom/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753467" />
+    <state width="1820" height="510" key="GridCell.Tab.0.center" timestamp="1588723596177">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.0.center/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596177" />
+    <state width="1820" height="495" key="GridCell.Tab.0.center/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067011" />
+    <state width="1820" height="275" key="GridCell.Tab.0.center/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541022" />
+    <state width="1820" height="593" key="GridCell.Tab.0.center/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753467" />
+    <state width="1820" height="510" key="GridCell.Tab.0.left" timestamp="1588723596176">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.0.left/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596176" />
+    <state width="1820" height="495" key="GridCell.Tab.0.left/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067011" />
+    <state width="1820" height="275" key="GridCell.Tab.0.left/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541021" />
+    <state width="1820" height="593" key="GridCell.Tab.0.left/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753466" />
+    <state width="1820" height="510" key="GridCell.Tab.0.right" timestamp="1588723596177">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.0.right/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596177" />
+    <state width="1820" height="495" key="GridCell.Tab.0.right/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067011" />
+    <state width="1820" height="275" key="GridCell.Tab.0.right/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541022" />
+    <state width="1820" height="593" key="GridCell.Tab.0.right/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753467" />
+    <state width="1820" height="510" key="GridCell.Tab.1.bottom" timestamp="1588723596178">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.1.bottom/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596178" />
+    <state width="1820" height="495" key="GridCell.Tab.1.bottom/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067012" />
+    <state width="1820" height="275" key="GridCell.Tab.1.bottom/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541023" />
+    <state width="1820" height="593" key="GridCell.Tab.1.bottom/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753468" />
+    <state width="1820" height="510" key="GridCell.Tab.1.center" timestamp="1588723596178">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.1.center/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596178" />
+    <state width="1820" height="495" key="GridCell.Tab.1.center/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067012" />
+    <state width="1820" height="275" key="GridCell.Tab.1.center/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541022" />
+    <state width="1820" height="593" key="GridCell.Tab.1.center/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753468" />
+    <state width="1820" height="510" key="GridCell.Tab.1.left" timestamp="1588723596177">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.1.left/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596177" />
+    <state width="1820" height="495" key="GridCell.Tab.1.left/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067011" />
+    <state width="1820" height="275" key="GridCell.Tab.1.left/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541022" />
+    <state width="1820" height="593" key="GridCell.Tab.1.left/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753468" />
+    <state width="1820" height="510" key="GridCell.Tab.1.right" timestamp="1588723596178">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1820" height="510" key="GridCell.Tab.1.right/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588723596178" />
+    <state width="1820" height="495" key="GridCell.Tab.1.right/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588713067012" />
+    <state width="1820" height="275" key="GridCell.Tab.1.right/54.27.1866.1053@54.27.1866.1053" timestamp="1585262541023" />
+    <state width="1820" height="593" key="GridCell.Tab.1.right/54.27.1866.2133@54.27.1866.2133" timestamp="1587334753468" />
+    <state width="1820" height="451" key="GridCell.Tab.2.bottom" timestamp="1588680864062">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="1820" height="451" key="GridCell.Tab.2.bottom/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588680864062" />
+    <state width="1820" height="451" key="GridCell.Tab.2.center" timestamp="1588680864062">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="1820" height="451" key="GridCell.Tab.2.center/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588680864062" />
+    <state width="1820" height="451" key="GridCell.Tab.2.left" timestamp="1588680864062">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="1820" height="451" key="GridCell.Tab.2.left/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588680864062" />
+    <state width="1820" height="451" key="GridCell.Tab.2.right" timestamp="1588680864062">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="1820" height="451" key="GridCell.Tab.2.right/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588680864062" />
+    <state width="287" height="514" key="HiddenNamespacesPopup" timestamp="1587911467094">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state width="287" height="514" key="HiddenNamespacesPopup/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587911467094" />
+    <state x="570" y="1357" width="824" height="533" key="IDE.errors.dialog" timestamp="1588713469753">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="570" y="1357" width="824" height="533" key="IDE.errors.dialog/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588713469753" />
+    <state x="479" y="1269" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1588713441457">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="479" y="1269" width="924" height="691" key="Maven.ArtifactSearchDialog/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588713441457" />
+    <state x="520" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588631348432" />
+    <state x="434" y="1245" width="1024" height="852" key="SettingsEditor" timestamp="1588713257806">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="434" y="1245" width="1024" height="852" key="SettingsEditor/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588713257806" />
+    <state x="476" y="188" width="1281" height="737" key="SettingsEditor/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588631869149" />
+    <state x="254" y="27" width="1666" height="1080" maximized="true" key="VCS.FileHistoryDialog" timestamp="1587310217208">
+      <screen x="54" y="27" width="1866" height="2133" />
+    </state>
+    <state x="152" y="144" width="1666" height="853" key="VCS.FileHistoryDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587238836211" />
+    <state x="254" y="27" width="1666" height="1080" maximized="true" key="VCS.FileHistoryDialog/54.27.1866.2133@54.27.1866.2133" timestamp="1587310217208" />
+    <state x="711" y="400" width="542" height="314" key="cloudConfig.PluginsDialog" timestamp="1586094519318">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="711" y="400" width="542" height="314" key="cloudConfig.PluginsDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586094519318" />
+    <state x="860" y="400" width="492" height="431" key="cloudConfig.SelfSettingsDialog" timestamp="1586621571683">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="860" y="400" width="492" height="431" key="cloudConfig.SelfSettingsDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1586621571683" />
+    <state x="881" y="412" width="201" height="289" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1588662996772">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="881" y="412" width="201" height="289" key="com.intellij.database.actions.DdlActions$CreateObject$1/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588662996772" />
+    <state x="861" y="440" width="377" height="270" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1587917225218">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="861" y="440" width="377" height="270" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587917225218" />
+    <state x="570" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog" timestamp="1588665997287">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="570" y="211" width="824" height="691" key="com.intellij.database.dbimport.ImportDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588665997287" />
+    <state x="740" y="369" width="484" height="373" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1587913758294">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="740" y="369" width="484" height="373" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587913758294" />
+    <state x="883" y="452" width="207" height="210" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1587909561682">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="883" y="452" width="207" height="210" key="com.intellij.database.run.ParametersPanel.Standalone/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587909561681" />
+    <state x="606" y="168" width="1117" height="621" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587913912420">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="606" y="168" width="1117" height="621" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587913912420" />
+    <state x="832" y="425" width="299" height="263" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1587909164788">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="832" y="425" width="299" height="263" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587909164788" />
+    <state x="766" y="201" width="432" height="719" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587210622464">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="766" y="201" width="432" height="719" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587210622464" />
+    <state x="758" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588668872895">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="758" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588668872895" />
+    <state x="628" y="373" width="708" height="367" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587229755675">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="628" y="373" width="708" height="367" key="com.intellij.testIntegration.createTest.CreateTestDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587229755675" />
+    <state x="510" y="265" width="943" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587935649243">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="510" y="265" width="943" height="583" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587935649243" />
+    <state x="212" y="1080" width="1444" height="1009" key="dock-window-1" timestamp="1588630015250">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="212" y="1080" width="1444" height="1009" key="dock-window-1/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588630015250" />
+    <state x="387" y="1080" width="1444" height="1009" maximized="true" key="dock-window-2" timestamp="1588665947996">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="387" y="1080" width="1444" height="1009" maximized="true" key="dock-window-2/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588665947996" />
+    <state x="678" y="165" width="890" height="777" key="find.popup" timestamp="1588662241009">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="678" y="165" width="890" height="777" key="find.popup/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588662241009" />
+    <state x="651" y="138" width="672" height="335" key="run.anything.popup" timestamp="1588669303443">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="651" y="138" width="672" height="335" key="run.anything.popup/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588669303443" />
+    <state x="651" y="252" width="672" height="677" key="run.anything.popup/54.27.1866.2133@54.27.1866.2133" timestamp="1587313126074" />
+    <state x="613" y="1318" width="692" height="696" key="search.everywhere.popup" timestamp="1588713087052">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="613" y="1318" width="692" height="696" key="search.everywhere.popup/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588713087052" />
+    <state x="650" y="259" width="672" height="678" key="search.everywhere.popup/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588668912268" />
+    <state x="650" y="497" width="672" height="1374" key="search.everywhere.popup/54.27.1866.2133@54.27.1866.2133" timestamp="1587330594473" />
+    <state x="712" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588667428118">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="712" y="467" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588667428118" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/line/delegate/impl/LineDelegateServiceImpl.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/stream/service/impl/StreamServiceImpl.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bussignalize/graduationproject/stream/service/impl/StreamServiceImpl.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+        <breakpoint type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/graduation_project$GraduationProjectApplication.ic" NAME="GraduationProjectApplication Coverage Results" MODIFIED="1586625230611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

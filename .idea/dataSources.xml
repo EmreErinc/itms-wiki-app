@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL - bus_signalize@localhost" uuid="c103324b-49f2-4d99-90f2-ee75a9a06414">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/bus_signalize</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MongoDB - bus_signalize@localhost" uuid="6c63eaff-7379-4cb5-9dd1-a91b736c9725">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017/bus_signalize</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@0.0.0.0" uuid="be32fc62-0f23-4a5d-a59f-bc90d9473d88">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://0.0.0.0:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</project>
