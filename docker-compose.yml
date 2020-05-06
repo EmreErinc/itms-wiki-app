@@ -3,7 +3,7 @@ services:
   mongo:
     image: mongo
     restart: always
-    container_name: itms_mongo
+    container_name: itms_mongodb
     ports:
       - 27017:27017
     environment:
@@ -27,6 +27,7 @@ services:
       - ./src/main/resources/init-postgres.sql:/docker-entrypoint-initdb.d/init-postgres.sql
 
   svc:
+    image: emreerinc/itms_svc
     restart: always
     container_name: itms_svc
     expose:

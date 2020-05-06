@@ -26,7 +26,5 @@ p
 @src/main/java/com/itms/wikiapp/metric/repo/MetricRepository.java,6/2/6231184f95301143423a1bfcd56bead0af57c71b
 y
 Isrc/main/java/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.java,a/c/ac9964d83e1a3bf917c7c369920168357057476a
-p
-@src/main/java/com/itms/wikiapp/GraduationProjectApplication.java,6/a/6a50ffdf939d099e32e8a191153932926c1cf465
 v
 Fsrc/main/java/com/itms/wikiapp/metric/controller/MetricController.java,a/8/a8f8f39125c8b12af8d5562958d23c2ca30833ba

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="" />
+    <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a50ffdf939d099e32e8a191153932926c1cf465" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/init-mongo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init-mongo.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +177,8 @@
       <workItem from="1588693617992" duration="44000" />
       <workItem from="1588693681844" duration="28000" />
       <workItem from="1588698614455" duration="2154000" />
-      <workItem from="1588711249873" duration="7834000" />
+      <workItem from="1588711249873" duration="8467000" />
+      <workItem from="1588795073278" duration="570000" />
     </task>
     <servers />
   </component>
