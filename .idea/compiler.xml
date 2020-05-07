@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="graduation-project" />
+        <module name="itms-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="graduation-project" target="1.8" />
+      <module name="itms-project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="graduation-project" options="-parameters" />
+      <module name="itms-project" options="-parameters" />
     </option>
   </component>
 </project>
