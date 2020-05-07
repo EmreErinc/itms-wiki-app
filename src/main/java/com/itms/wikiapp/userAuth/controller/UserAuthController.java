@@ -8,7 +8,7 @@ import com.itms.wikiapp.userAuth.service.UserAuthService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RestController
 public class UserAuthController {
   private final UserAuthService userAuthService;
