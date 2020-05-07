@@ -1,84 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduation-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/WikiAppProjectApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/config/MongoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/ApiResponseEntityExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/CustomErrorResponse$CustomErrorResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/CustomErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/ErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/ErrorHandlerFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/ErrorHandlerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/ErrorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/types/AlreadyExistsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/types/InternalServerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/exception/types/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/model/Done$DoneBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/model/Done.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/model/Response$ResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/model/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/model/TopicType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/security/JwtAuthenticationEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/security/JwtRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/security/JwtTokenUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/common/security/JwtUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/controller/MetricController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/entity/MetricEntity$MetricEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/entity/MetricEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/request/AddMetricRequest$AddMetricRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/request/AddMetricRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/request/UpdateMetricRequest$UpdateMetricRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/request/UpdateMetricRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/AddMetricResponse$AddMetricResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/AddMetricResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/MetricDetailResponse$MetricDetailResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/MetricDetailResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/MetricResponse$MetricResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/MetricResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/UpdateMetricResponse$UpdateMetricResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/model/response/UpdateMetricResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/repo/MetricRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/service/MetricService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/controller/UserAuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/delegate/UserAuthDelegateService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/delegate/impl/UserAuthDelegateServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/UserErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/entity/UserAuthEntity$UserAuthEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/entity/UserAuthEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/req/LoginRequest$LoginRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/req/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/req/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/req/RegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/res/LoginResponse$LoginResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/res/LoginResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/res/RegisterResponse$RegisterResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/model/res/RegisterResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/repository/CustomUserAuthRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/repository/UserAuthRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/repository/impl/UserAuthRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/service/UserAuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itms/wikiapp/userAuth/service/impl/UserAuthServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/init-mongo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/init-postgres.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itms/wikiapp/GraduationProjectApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiki-app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiki-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-    </list>
+    <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -426,7 +349,7 @@
       <workItem from="1588711249873" duration="8467000" />
       <workItem from="1588795073278" duration="2707000" />
       <workItem from="1588883744464" duration="8000" />
-      <workItem from="1588883772590" duration="955000" />
+      <workItem from="1588883772590" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -656,9 +579,10 @@
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="387" y="1080" width="1444" height="1009" maximized="true" key="dock-window-2/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588665947996" />
-    <state x="678" y="165" width="890" height="777" key="find.popup" timestamp="1588662241009">
-      <screen x="54" y="27" width="1866" height="1053" />
+    <state x="642" y="1222" width="916" height="797" key="find.popup" timestamp="1588885581153">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="642" y="1222" width="916" height="797" key="find.popup/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1588885581153" />
     <state x="678" y="165" width="890" height="777" key="find.popup/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588662241009" />
     <state x="651" y="138" width="672" height="335" key="run.anything.popup" timestamp="1588669303443">
       <screen x="54" y="27" width="1866" height="1053" />
