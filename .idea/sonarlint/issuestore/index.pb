@@ -34,3 +34,14 @@ o
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 s
 Csrc/main/java/com/itms/wikiapp/common/config/WebSecurityConfig.java,6/a/6a69ee32fd59d563c32dbe17b04c894718e2231e
+@
+itms-project.iml,a/d/ad58ef5d008958635857415b266349e26306a636
+r
+Bsrc/test/java/com/itms/wikiapp/WikiAppProjectApplicationTests.java,d/6/d6ed1fa8f4f62007ba45fab601ea450c2e067307
+m
+=src/main/java/com/itms/wikiapp/common/config/MongoConfig.java,a/c/ac460cb8b135634fe2fcc20a3843ecaae98e5698
+p
+@src/main/java/com/itms/wikiapp/common/security/JwtTokenUtil.java,7/a/7ade73e40277b87b8eacd906bc16754b4effb24d
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
