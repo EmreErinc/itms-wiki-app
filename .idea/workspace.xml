@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/common/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/common/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/common/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,7 @@
       <workItem from="1588883744464" duration="8000" />
       <workItem from="1588883772590" duration="2096000" />
       <workItem from="1588888408436" duration="3381000" />
-      <workItem from="1589033521724" duration="1881000" />
+      <workItem from="1589033521724" duration="2331000" />
     </task>
     <servers />
   </component>
@@ -213,11 +211,11 @@
       <screen x="54" y="27" width="1866" height="1053" />
     </state>
     <state x="363" y="421" width="1237" height="272" key="#SQL_Resolution_Scopes/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1587909081159" />
-    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588712599977">
+    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589036145227">
       <screen x="54" y="27" width="1866" height="1053" />
     </state>
     <state x="164" y="1293" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053/0.1080.1920.1080@0.1080.1920.1080" timestamp="1587217911129" />
-    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1588712599977" />
+    <state x="213" y="235" width="1034" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053/0.1080.1920.1080@54.27.1866.1053" timestamp="1589036145227" />
     <state x="507" y="396" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/54.27.1866.1053@54.27.1866.1053" timestamp="1585222518363" />
     <state x="206" y="355" width="619" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588603285994">
       <screen x="54" y="27" width="1866" height="1053" />

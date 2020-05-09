@@ -76,12 +76,18 @@ public class MetricServiceImpl implements MetricService {
   public UpdateMetricResponse updateMetric(String metricId, UpdateMetricRequest request) {
     MetricEntity foundMetricEntity = metricRepository.findByUuid(UUID.fromString(metricId));
 
+    foundMetricEntity.setName(request.getName());
+    foundMetricEntity.setGoal(request.getGoal());
+    foundMetricEntity.setMeasurementType(request.getMeasurementType());
+    foundMetricEntity.setMeasurementPeriod(request.getMeasurementPeriod());
+    MetricEntity updatedMetricEntity = metricRepository.save(foundMetricEntity);
+
     return UpdateMetricResponse.builder()
         .id(foundMetricEntity.getUuid().toString())
-        .name(request.getName())
-        .goal(request.getGoal())
-        .measurementType(request.getMeasurementType())
-        .measurementPeriod(request.getMeasurementPeriod())
+        .name(updatedMetricEntity.getName())
+        .goal(updatedMetricEntity.getGoal())
+        .measurementType(updatedMetricEntity.getMeasurementType())
+        .measurementPeriod(updatedMetricEntity.getMeasurementPeriod())
         .build();
   }
 }
