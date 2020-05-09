@@ -19,8 +19,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Configuration
 @EnableWebSecurity
@@ -69,11 +72,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
       "/webjars/**"
   };
 
+  List<String> headers = new ArrayList<String>();
+
+
   @Override
   protected void configure(HttpSecurity httpSecurity) throws Exception {
     httpSecurity
-        .cors().configurationSource(request -> new CorsConfiguration().applyPermitDefaultValues())
-        .and()
         .csrf().disable()
         .authorizeRequests()
         .antMatchers(HttpMethod.POST, "/register").permitAll()
@@ -88,9 +92,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   }
 
   @Bean
-  CorsConfigurationSource corsConfigurationSource() {
+  CorsFilter configuration() {
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-    source.registerCorsConfiguration("/**", new CorsConfiguration().applyPermitDefaultValues());
-    return source;
+    CorsConfiguration configuration = new CorsConfiguration();
+    configuration.setAllowCredentials(true);
+    configuration.addAllowedMethod("*");
+    configuration.addAllowedHeader("*");
+    configuration.addAllowedOrigin("*");
+
+    source.registerCorsConfiguration("/**", configuration);
+    return new CorsFilter(source);
   }
 }
