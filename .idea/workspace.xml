@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f451ae-be18-4ae5-8da3-8b6f8ada2650" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/metric/service/impl/MetricServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/common/security/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itms/wikiapp/common/security/JwtTokenUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,7 @@
       <workItem from="1588883744464" duration="8000" />
       <workItem from="1588883772590" duration="2096000" />
       <workItem from="1588888408436" duration="3381000" />
-      <workItem from="1589033521724" duration="2331000" />
+      <workItem from="1589033521724" duration="3085000" />
     </task>
     <servers />
   </component>
