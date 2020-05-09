@@ -23,6 +23,8 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @Configuration
@@ -78,7 +80,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   @Override
   protected void configure(HttpSecurity httpSecurity) throws Exception {
     httpSecurity
-        .cors().configurationSource(request -> new CorsConfiguration().applyPermitDefaultValues())
+        .cors()
         .and()
         .csrf().disable()
         .authorizeRequests()
@@ -96,11 +98,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   @Bean
   CorsFilter configuration() {
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
     CorsConfiguration configuration = new CorsConfiguration();
-//    configuration.setAllowCredentials(true);
-    configuration.addAllowedMethod("*");
-    configuration.addAllowedHeader("*");
-    configuration.addAllowedOrigin("*");
+    configuration.setAllowedOrigins(Collections.singletonList("*"));
+    configuration.setAllowedHeaders(Arrays.asList("GET", "POST", "PUT", "DELETE"));
 
     source.registerCorsConfiguration("/**", configuration);
     return new CorsFilter(source);
