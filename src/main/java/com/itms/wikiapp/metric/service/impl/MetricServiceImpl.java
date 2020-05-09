@@ -78,10 +78,10 @@ public class MetricServiceImpl implements MetricService {
 
     return UpdateMetricResponse.builder()
         .id(foundMetricEntity.getUuid().toString())
-        .name(foundMetricEntity.getName())
-        .goal(foundMetricEntity.getGoal())
-        .measurementType(foundMetricEntity.getMeasurementType())
-        .measurementPeriod(foundMetricEntity.getMeasurementPeriod())
+        .name(request.getName())
+        .goal(request.getGoal())
+        .measurementType(request.getMeasurementType())
+        .measurementPeriod(request.getMeasurementPeriod())
         .build();
   }
 }
