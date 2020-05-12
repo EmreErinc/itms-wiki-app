@@ -1,7 +1,3 @@
-# Java Gradle CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-java/ for more details
-#
 version: 2
 jobs:
   build:
@@ -27,11 +23,11 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "build.gradle" }}
+            - v1-dependencies-{{ checksum "pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: mvn clean install
+      - run: gradle dependencies
 
       - save_cache:
           paths:
@@ -48,4 +44,14 @@ jobs:
       - store_artifacts: # store the uberjar as an artifact
       # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: target/wiki-app-0.0.1-SNAPSHOT.jar
-      # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples  
+      # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples 
+
+      - run:
+          name: Docker Build
+          command: docker build -t emreerinc/itms-wiki-app:circleCI .
+      - run: 
+          name: Docker Login
+          command: echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+      - run:
+          name: Docker Push
+          command : docker push emreerinc/itms-wiki-app:circleCI
